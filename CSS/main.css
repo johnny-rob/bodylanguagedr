@@ -7,30 +7,31 @@ html body{
     font-size:1em;
     margin:0;
     padding:0;
-    font-family:"Helvetica neue";
+    font-family: "Helvetica neue";
 }
 h1{
-    font-size:4em;
+    font-size:5em;
     text-transform: uppercase;
     font-weight: lighter;
     letter-spacing: 2px;
 }
 
 h2{
-    font-size:3em;
+    font-size:4em;
     text-transform: uppercase;
     font-weight: 200;
+    letter-spacing: 1.5px;
 }
 
 h3{
-    font-size:2em;
+    font-size:3em;
     text-transform: uppercase;
     font-weight:200;
 }
 h4{
-    font-size:1.8em;
-    text-transform: uppercase;
-    font-weight:300;
+    font-size:1.125rem;
+    font-weight:200;
+    line-height: 1.6;
 }
 
 h6{
@@ -39,9 +40,13 @@ h6{
     font-weight: 100;
     color:white;
     letter-spacing: 2px;
-
 }
 
+p{
+  font-size: 1.4em;
+  font-weight: 200;
+  letter-spacing: .5px;
+}
 ul{
     list-style-type: none;
 }
@@ -66,6 +71,17 @@ footer p{
     font-weight:300;
     padding:40px;
 }
+table.center{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 100px;
+}
+th, td{
+  padding:5px 25px;
+  font-size: 1.8em;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
 /*==========Universal Classes===========*/
 .clear{
     clear:both;
@@ -77,6 +93,25 @@ footer p{
 .break-line{
     border-top:1px dashed grey;
     margin: 0 10%;
+}
+.row{
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 40px;
+}
+.list{
+  text-align: center;
+  display: block;
+  padding:10px 40px;
+  font-size: 1.8em;
+  font-weight: 200;
+}
+.box1{
+  display:block;
+  float:left;
+  align-self: center;
 }
 /*========== Top Container =============*/
 .head-container {
@@ -99,7 +134,24 @@ footer p{
 }
 
 /*========== Welcome =============*/
-
+.welcome-container {
+  display:block;
+  margin:0px;
+  border-bottom: 1px solid #eee;
+}
+.welcome-container h2{
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.welcome-container h4{
+  margin-left: 150px;
+  margin-right: 150px;
+}
 /*========== Services =============*/
 
 /*========== Testimonials =============*/
