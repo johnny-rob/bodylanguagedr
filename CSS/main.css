@@ -24,7 +24,7 @@ h2{
 }
 
 h3{
-    font-size:3em;
+    font-size:2.5rem;
     text-transform: uppercase;
     font-weight:200;
 }
@@ -174,7 +174,7 @@ th, td{
 .medium-4{
   width:30%;
 }
-.medium-4 h4{
+.medium-4 h3{
   text-align: center;
 }
 .columns{
