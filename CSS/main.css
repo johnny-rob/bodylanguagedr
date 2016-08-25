@@ -51,6 +51,8 @@ ul{
     list-style-type: none;
     padding-left:0px;
     line-height: 1.5em;
+    font-size:1.3em;
+    font-weight: 200;
 }
 
 a{
@@ -169,16 +171,22 @@ th, td{
   padding-left: 1.5rem;
   padding-right: 1rem;
   padding-bottom: 0.25rem;
-  transition: all .25s ease-in-out;
 }
 .medium-4{
   width:30%;
 }
 .medium-4 h3{
   text-align: center;
+  margin:15px 0px;
 }
 .columns{
   float:left;
+}
+img{
+  display:inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+  border-radius: 5px;
 }
 /*========== Testimonials =============*/
 
