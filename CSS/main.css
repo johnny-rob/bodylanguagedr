@@ -260,6 +260,7 @@ img{
 .medium-5{
   width:46%;
   height:46%;
+  margin-bottom:0px
 }
 .medium-5 h3{
   text-align: center;
@@ -276,6 +277,7 @@ img{
 .medium-6{
   width:46%;
   height:46%;
+  margin-bottom:0px
 }
 .medium-6 h3{
   text-align: center;
@@ -314,3 +316,14 @@ img{
 
 
 /*========== Contact =============*/
+.contact{
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  display:block;
+  border-top: 1px solid #000; 
+}
+.contact h2{
+  text-align: center;
+}
