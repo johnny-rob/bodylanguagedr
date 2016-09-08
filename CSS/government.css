@@ -1,0 +1,306 @@
+/*======================================
+    Styling of primary elements
+  ======================================*/
+
+html body{
+    background:#fff;
+    font-size:1em;
+    margin:0;
+    padding:0;
+    font-family: "Helvetica neue";
+    -webkit-font-smoothing: antialiased;
+}
+h1{
+    font-size:5em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-size:4em;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+h3{
+    font-size:2.5rem;
+    text-transform: uppercase;
+    font-weight:200;
+}
+h4{
+    font-size:1.225rem;
+    font-weight:200;
+    line-height: 1.6;
+    text-align: center;
+}
+
+h6{
+    font-size:1.8em;
+    font-weight: 100;
+    color:black;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+p{
+  font-size: 1.4em;
+  font-weight: 200;
+  letter-spacing: .5px;
+}
+ul{
+    list-style-type: none;
+    padding-left:0px;
+    line-height: 1.5em;
+    font-size:1.3em;
+    font-weight: 200;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+    letter-spacing: 2px;
+}
+a:hover{
+    text-decoration:none;
+}
+footer{
+    width:100%;
+    height:150px;
+    background:#333333;
+}
+table.center{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 100px;
+}
+th, td{
+  padding:5px 25px;
+  font-size: 1.8em;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+/*==========Universal Classes===========*/
+.clear{
+    clear:both;
+}
+.breaker{
+    border-top:3px solid #000;
+    margin:0 42%;
+}
+.break-line{
+    border-top:1px dashed grey;
+    margin: 0 10%;
+}
+.row{
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 40px;
+}
+.list{
+  text-align: left;
+  display: block;
+  padding:10px 40px;
+  font-size: 1.8em;
+  font-weight: 200;
+}
+.box1{
+  display:block;
+  float:left;
+  align-self: center;
+}
+/*=========Title===========*/
+.head-container{
+  display:block;
+  background-size:cover;
+  position:relative;
+  float:left;
+  width:100%;
+  height:20vh;
+  background: #074E68;
+  min-height: 100px;
+}
+.head-container h1{
+  display:block;
+  text-align:center;
+  color:white;
+  margin: 3vh;
+}
+/*=========Services===========*/
+.svc-container{
+    border:0;
+    margin-top:0;
+}
+.clear{
+    clear:both;
+}
+.smart{
+  margin:50px 80px;
+}
+.row-framework-callouts{
+  max-width: 80rem;
+  display:block;
+  margin-bottom: 2rem;
+  border-radius: 3px;
+  padding: 1rem 1.08rem 0.25rem 1.08rem;
+}
+.line{
+  border-top:solid 1px black;
+  width:80%;
+  margin:0 8%;
+  margin-bottom:100px;
+}
+.attach{
+
+}
+/*==========Contact============*/
+.medium-2{
+  width:40%;
+  position:;
+  z-index:1
+}
+.medium-2 h3{
+  margin-top:0;
+}
+.medium-3{
+  width:auto;
+}
+.medium-4{
+  width:30%;
+}
+.medium-4 h3{
+  text-align: center;
+  margin:15px 0px;
+}
+.medium-8{
+  display:block;
+  text-align: center;
+  max-width: 75rem;
+}
+.medium-9{
+  width:65%;
+  float:left;
+  margin:51px 0;
+  padding-left:20px;
+  align-content: left;
+  vertical-align: middle;
+}
+.small-box{
+    background-position: center -325px;
+    border-left:1px solid #000;
+    margin-bottom: 30px;
+    display:block;
+    height:200px;
+}
+.hide-for-small{
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: black;
+  margin:0 1px 10px 0;
+  text-transform: uppercase;
+  padding: 20px 0 0 0;
+}
+.columns{
+  float:left;
+}
+.columns:last-child:not(:first-child) {
+    float: right;
+}
+.row-property{
+  max-width: 75rem;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+  margin: 50px 20px;
+  display: block;
+  background: black;
+}
+.property-info{
+  display:block;
+  margin:0px;
+  padding:0px;
+  z-index: -1;
+}
+.address{
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: black;
+  padding:0 25px;
+}
+.email{
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: black;
+  padding:0 15px;
+}
+.phone{
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: black;
+  padding:0 30px;
+}
+/*=============Footer================*/
+.social{
+  display:block;
+  float:right;
+  margin:15px 20px 15px 0;
+}
+.social li{
+  display:inline-block;
+  margin: 0 5px;
+  width: 70px;
+  height: 70px;
+  background-color:#717171;
+  vertical-align: middle;
+  border-radius: 100%;
+}
+.social li:hover{
+  background-color: #59595A;
+}
+.facebook{
+  margin:15px 20% 0 30%;
+}
+.twitter{
+  margin:15px 20% 0 21%;
+}
+.g_plus{
+  margin:15px 50px 0 15%;
+}
+.medium-9{
+  width:65%;
+  float:left;
+  margin:51px 0;
+  padding-left:20px;
+  align-content: left;
+  vertical-align: middle;
+}
+footer p{
+    text-align:center;
+    color:#717171;
+    font-weight:200;
+    font-size: 1.2em;
+    margin:0;
+}
+.promo{
+  background-color: #E3E3E1;
+  display:block;
+  border-radius: 50px;
+  float: right;
+  margin:45px 30px 45px 0;
+  width:8%;
+  padding: 10px 0;
+}
+.promo p{
+  font-size: .8em;
+  text-align: center;
+  vertical-align: bottom;
+  color: #717171;
+  font-weight: 400;
+}
+.promo:hover{
+  background-color: #fff;
+}
