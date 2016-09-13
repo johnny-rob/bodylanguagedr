@@ -28,6 +28,7 @@ h3{
     font-size:2.5rem;
     text-transform: uppercase;
     font-weight:200;
+    color: #007FFF;
 }
 h4{
     font-size:1.125rem;
@@ -302,6 +303,33 @@ img{
   color: white;
 }
 
+/*========== Book =============*/
+.book-container{
+  background: orange;
+  display:block;
+  width:100%;
+  height:100vh;
+}
+.book-section{
+  display:block;
+  float:left;
+  margin: 10vh 50px 10vh 100px;
+  align-items: center;
+  vertical-align: middle;
+}
+.book-section img{
+  width:55vh;
+  height:80vh;
+}
+.book-text{
+  display:block;
+  float:left;
+  width:30rem;
+  margin: 70px 80px;
+}
+.purchase{
+
+}
 
 /*========== Contact =============*/
 .contact{
@@ -350,6 +378,9 @@ table.bottom th, td{
   margin:0px;
   padding:0px;
   z-index: -1;
+}
+.property-info h3{
+  color:black;
 }
 .medium-8{
   display:block;
