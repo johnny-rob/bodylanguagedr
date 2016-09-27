@@ -1122,6 +1122,7 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
+  height: 100%;
 }
 .img-rounded {
   border-radius: 6px;
@@ -6240,9 +6241,10 @@ button.close {
   position: relative;
   width: 100%;
   overflow: hidden;
+  height:600px;
 }
 .carousel-inner > .item {
-  position: relative;
+  position: sticky;
   display: none;
   -webkit-transition: .6s ease-in-out left;
        -o-transition: .6s ease-in-out left;
@@ -6421,11 +6423,13 @@ button.close {
   bottom: 20px;
   left: 15%;
   z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 30%;
+  color: #000;
   text-align: center;
+  vertical-align: middle;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  font-size:100%;
 }
 .carousel-caption .btn {
   text-shadow: none;
@@ -6449,10 +6453,17 @@ button.close {
     margin-right: -10px;
   }
   .carousel-caption {
-    right: 20%;
-    left: 20%;
-    padding-bottom: 30px;
-  }
+    right: 10%;
+    left: 10%;
+    padding-bottom: 140px;
+    text-align: center;
+    max-width: 75%;
+    left: auto;
+    /*top: auto;*/
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    }
   .carousel-indicators {
     bottom: 20px;
   }
