@@ -18,9 +18,10 @@ h1{
     font-weight: lighter;
     letter-spacing: 2px;
     color:white;
-    text-align: center;
     flex-wrap: wrap;
+    /*padding-top:30vh;*/
     align-content: center;
+    text-align: center;
 }
 
 h2{
@@ -130,8 +131,8 @@ th, td{
 .head-container{
   display:flex;
   background-size:cover;
-  position:relative;
-  float:left;
+  /*position:relative;
+  float:left;*/
   width:100%;
   height:100vh;
   background-image: url('../images/arms_crossed.jpg');
@@ -140,8 +141,29 @@ th, td{
   justify-content: center;
   align-items: center;
 }
-
-
+/*.menu{
+  display:flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+ul.topnav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+ul.topnav li {float: right;}
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+ul.topnav li a:hover {background-color: #555;}
+ul.topnav li.icon {display: none;}
+*/
 /*========== Welcome =============*/
 .welcome-container {
   display:block;
@@ -183,8 +205,8 @@ table.bottom th, td{
 iframe{
   /*width:1120px;
   height:630px;*/
-  width:100%;
-  height:100%;
+  width:90%;
+  height:80%;
 }
 /*========== Services =============*/
 .row-framework-callouts{
@@ -259,7 +281,7 @@ iframe{
 }
 .book-cover img{
   width: 55vh;
-  height: 75vh;
+  height: 85vh;
   min-width: 200px;
   min-height: 240px;
 }
@@ -274,10 +296,22 @@ iframe{
 }
 
 .purchase{
-
+  display:flex;
+  flex-flow: column;
+  text-align: center;
+  padding-top:10px;
 }
-
-
+.purchase h3{
+  width:100%;
+}
+.purchase table{
+  margin-bottom:20px;
+}
+.purchase form{
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+}
 @media (max-width: 400px) {
   .flex-grid,{
     display: block;
