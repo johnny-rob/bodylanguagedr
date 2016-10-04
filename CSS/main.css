@@ -213,7 +213,8 @@ iframe{
   display:flex;
   max-width: 130rem;
   margin: 20px auto;
-  align-content: space-around;
+  align-content: center;
+  justify-content: center;
 
   display: -webkit-box;
   display: -moz-box;
@@ -222,7 +223,6 @@ iframe{
   display: flex;
 
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;
 }
 .container-hover{
   margin-bottom: 2rem;
@@ -251,7 +251,7 @@ iframe{
   display:flex;
   justify-content:flex-end;
   align-items: middle;
-  max-width: 85%;
+  max-width: 100%;
   vertical-align: middle;
   border-radius: 5px;
 }
