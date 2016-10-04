@@ -298,6 +298,25 @@ img{
   left: auto;
 }
 
+/*========== inter-page link =========*/
+.linker{
+  width:100%;
+  height:30px;
+  display:flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  background-color: orange;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+.linker:hover{
+  background-color: grey;
+}
+.linker p{
+  margin:0;
+  font-size: 1.2em;
+}
 /*==========Contact============*/
 .medium-2{
   width:40%;

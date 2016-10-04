@@ -211,10 +211,9 @@ iframe{
 /*========== Services =============*/
 .row-framework-callouts{
   display:flex;
-  max-width: 100rem;
-  margin: 100px auto;
-  justify-content: center;
-  align-content: space-between;
+  max-width: 130rem;
+  margin: 20px auto;
+  align-content: space-around;
 
   display: -webkit-box;
   display: -moz-box;
@@ -232,7 +231,10 @@ iframe{
 }
 .medium-4{
   width:30%;
-  min-width: 200px;
+  min-width: 400px;
+}
+.medium-4 ul{
+  display:block;
 }
 .medium-4 li{
   font-size: 1.5em;
@@ -246,11 +248,14 @@ iframe{
   float:left;
 }
 .squares {
-  display:inline-block;
-  max-width: 100%;
+  display:flex;
+  justify-content:flex-end;
+  align-items: middle;
+  max-width: 85%;
   vertical-align: middle;
   border-radius: 5px;
 }
+
 /*========== Testimonials =============*/
 .carousel-caption h3{
   font-size: 300%;
@@ -294,7 +299,6 @@ iframe{
 .book-text p{
   text-align: justify;
 }
-
 .purchase{
   display:flex;
   flex-flow: column;
@@ -312,18 +316,22 @@ iframe{
   flex-flow: column;
   align-items: center;
 }
-@media (max-width: 400px) {
-  .flex-grid,{
-    display: block;
-    .col {
-      width: 100%;
-      margin: 0 0 10px 0;
-    }
-  }
-  .carousel-caption h3{
-    font-size: 20px;
-  }
+
+/*========== inter-page link =========*/
+.linker{
+  display:flex;
+  width:100%;
+  height:30px;
+  flex-flow: row;
+  flex-wrap: wrap;
+  background-color: orange;
+  justify-content: center;
+  align-items: center;
 }
+.linker:hover{
+  background-color: grey;
+}
+
 /*========== Contact =============*/
 .row-property{
   display: flex;
@@ -473,4 +481,34 @@ footer p{
   display:flex;
   align-items: center;
   margin:0 25px;
+}
+
+/*============== Media Query ===========*/
+@media (max-width: 400px) {
+  .flex-grid,{
+    display: block;
+    .col {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+  .carousel-caption h3{
+    font-size: 20px;
+  }
+  .carousel-inner {
+    height:700px;
+  }
+  .carousel-caption {
+    display:flex;
+    flex-flow: column;
+    align-content: center;
+    bottom: 10px;
+  }
+  .welcome-container h4{
+    margin:0 30px;
+  }
+  .linker{
+    display:block;
+    height:80px;
+  }
 }
