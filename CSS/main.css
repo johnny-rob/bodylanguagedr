@@ -232,7 +232,7 @@ iframe{
 }
 .medium-4{
   width:30%;
-  min-width: 200px;
+  min-width: 235px;
 }
 .medium-4 ul{
   display:block;
@@ -526,4 +526,9 @@ footer p{
   }
   .medium-4{
     width:400px;
+  }
+  .book-cover img{
+    width: 250px;
+    height: 400px;
+  }
 }
