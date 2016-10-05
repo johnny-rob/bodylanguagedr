@@ -17,7 +17,7 @@ h1{
     text-transform: uppercase;
     font-weight: lighter;
     letter-spacing: 2px;
-    color:white;
+    color: white;
     flex-wrap: wrap;
     /*padding-top:30vh;*/
     align-content: center;
@@ -211,7 +211,7 @@ iframe{
 /*========== Services =============*/
 .row-framework-callouts{
   display:flex;
-  max-width: 130rem;
+  max-width: 110rem;
   margin: 20px auto;
   align-content: center;
   justify-content: center;
@@ -231,7 +231,7 @@ iframe{
 }
 .medium-4{
   width:30%;
-  min-width: 400px;
+  min-width: 200px;
 }
 .medium-4 ul{
   display:block;
@@ -239,6 +239,7 @@ iframe{
 .medium-4 li{
   font-size: 1.5em;
   line-height: 1.7em;
+  text-transform: capitalize;
 }
 .medium-4 h3{
   text-align: center;
@@ -511,4 +512,6 @@ footer p{
     display:block;
     height:80px;
   }
+  .medium-4{
+    width:400px;
 }
